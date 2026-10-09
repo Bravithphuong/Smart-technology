@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="km" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f8ff">
+  <meta name="description" content="NEXORA TECHNOLOGIES - IT consulting, networking, cybersecurity, CCTV and business technology solutions.">
+  <title>NEXORA TECHNOLOGIES | IT Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Battambang:wght@400;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="#home" aria-label="NEXORA home">
+      <span class="brand-mark"><i></i><i></i><i></i><i></i></span>
+      <span class="brand-copy"><strong>NEXORA</strong><small>TECHNOLOGIES</small></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+      <a href="#home" data-km="ទំព័រដើម" data-en="Home">ទំព័រដើម</a>
+      <a href="#services" data-km="សេវាកម្ម" data-en="Services">សេវាកម្ម</a>
+      <a href="#about" data-km="អំពីយើង" data-en="About">អំពីយើង</a>
+      <a href="#process" data-km="ដំណើរការ" data-en="Our Process">ដំណើរការ</a>
+      <a href="#contact" data-km="ទំនាក់ទំនង" data-en="Contact">ទំនាក់ទំនង</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" type="button"
+              aria-label="Switch to dark mode" aria-pressed="false">
+        <svg id="themeIcon" class="theme-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20.9 13A8.5 8.5 0 0 1 11 3.1 8.5 8.5 0 1 0 20.9 13Z"/>
+        </svg>
+      </button>
+      <button class="language-btn" id="languageToggle" type="button" aria-label="Switch language">EN</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="hero-badge"><span class="status-dot"></span>
+          <span data-km="ដំណោះស្រាយ IT និងប្រព័ន្ធសុវត្ថិភាព" data-en="IT & Security Solutions">ដំណោះស្រាយ IT និងប្រព័ន្ធសុវត្ថិភាព</span>
+        </span>
+        <h1 data-km="បច្ចេកវិទ្យាឆ្លាតវៃ សម្រាប់អាជីវកម្មដែល <span class='gradient-text'>រីកចម្រើន</span>" data-en="Smart technology for a <span class='gradient-text'>growing</span> business">
+          បច្ចេកវិទ្យាឆ្លាតវៃ សម្រាប់អាជីវកម្មដែល <span class="gradient-text">រីកចម្រើន</span>
+        </h1>
+        <p class="hero-description" data-km="យើងជួយរៀបចំ និងគាំទ្រប្រព័ន្ធ IT បណ្ដាញ Network កាមេរ៉ាសុវត្ថិភាព និងដំណោះស្រាយបច្ចេកវិទ្យាសម្រាប់ការងាររបស់អ្នក។" data-en="We design, deploy and support IT systems, networks, security cameras and technology solutions for your workplace.">
+          យើងជួយរៀបចំ និងគាំទ្រប្រព័ន្ធ IT បណ្ដាញ Network កាមេរ៉ាសុវត្ថិភាព និងដំណោះស្រាយបច្ចេកវិទ្យាសម្រាប់ការងាររបស់អ្នក។
+        </p>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#contact"><span data-km="ពិភាក្សាអំពីគម្រោង" data-en="Discuss Your Project">ពិភាក្សាអំពីគម្រោង</span><span>↗</span></a>
+          <a class="btn btn-secondary" href="#services"><span data-km="មើលសេវាកម្ម" data-en="Explore Services">មើលសេវាកម្ម</span><span>↓</span></a>
+        </div>
+        <div class="hero-meta">
+          <span><b>✓</b><span data-km="ដំណោះស្រាយតាមតម្រូវការ" data-en="Tailored Solutions">ដំណោះស្រាយតាមតម្រូវការ</span></span>
+          <span><b>✓</b><span data-km="គាំទ្រផ្នែកបច្ចេកទេស" data-en="Technical Support">គាំទ្រផ្នែកបច្ចេកទេស</span></span>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-label="Technology illustration">
+        <div class="orbit"></div>
+        <div class="tech-core"><div class="core-symbol">N</div></div>
+        <div class="float-card card-one"><span>⌘</span><div>NETWORK<small>Connectivity</small></div></div>
+        <div class="float-card card-two"><span>◈</span><div>SECURITY<small>Protection</small></div></div>
+        <div class="float-card card-three"><span>↗</span><div>IT SOLUTIONS<small>Built to grow</small></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section services-section" id="services">
+    <div class="container">
+      <div class="section-heading">
+        <span class="eyebrow" data-km="អ្វីដែលយើងផ្ដល់ជូន" data-en="WHAT WE OFFER">អ្វីដែលយើងផ្ដល់ជូន</span>
+        <h2 data-km="សេវាកម្មរបស់យើង" data-en="Our Services">សេវាកម្មរបស់យើង</h2>
+        <p data-km="ដំណោះស្រាយបច្ចេកវិទ្យាចម្រុះ ដើម្បីឱ្យការងាររបស់អ្នកកាន់តែមានប្រសិទ្ធភាព និងសុវត្ថិភាព។" data-en="Technology solutions to make your workplace more efficient, connected and secure.">ដំណោះស្រាយបច្ចេកវិទ្យាចម្រុះ ដើម្បីឱ្យការងាររបស់អ្នកកាន់តែមានប្រសិទ្ធភាព និងសុវត្ថិភាព។</p>
+      </div>
+      <div class="services-grid" id="servicesGrid"></div>
+    </div>
+  </section>
+
+  <section class="section about-section" id="about">
+    <div class="container about-grid">
+      <div class="about-visual">
+        <div class="about-glow"></div>
+        <div class="server-rack">
+          <div class="rack-top"><span></span><span></span><span></span><b>SERVER RACK</b></div>
+          <div class="rack-unit"><i></i><span></span><i></i><span></span><i></i></div>
+          <div class="rack-unit"><i></i><span></span><i></i><span></span><i></i></div>
+          <div class="rack-unit"><i></i><span></span><i></i><span></span><i></i></div>
+          <div class="rack-switch"><b>••••••••••••••</b></div>
+          <div class="rack-base"></div>
+        </div>
+        <div class="about-chip">IT · NETWORK · SECURITY</div>
+      </div>
+      <div class="about-copy">
+        <span class="eyebrow" data-km="អំពី NEXORA" data-en="ABOUT NEXORA">អំពី NEXORA</span>
+        <h2 data-km="ដំណោះស្រាយបច្ចេកវិទ្យា ដែលផ្ដោតលើតម្រូវការរបស់អ្នក" data-en="Technology solutions built around your needs">ដំណោះស្រាយបច្ចេកវិទ្យា ដែលផ្ដោតលើតម្រូវការរបស់អ្នក</h2>
+        <p data-km="NEXORA TECHNOLOGIES មានគោលបំណងជួយអាជីវកម្ម និងអង្គភាពនានា រៀបចំប្រព័ន្ធ IT ឱ្យមានប្រសិទ្ធភាព សុវត្ថិភាព និងងាយស្រួលគ្រប់គ្រង។" data-en="NEXORA TECHNOLOGIES aims to help businesses and organizations build IT environments that are efficient, secure and easier to manage.">NEXORA TECHNOLOGIES មានគោលបំណងជួយអាជីវកម្ម និងអង្គភាពនានា រៀបចំប្រព័ន្ធ IT ឱ្យមានប្រសិទ្ធភាព សុវត្ថិភាព និងងាយស្រួលគ្រប់គ្រង។</p>
+        <p data-km="យើងផ្ដោតលើការយល់ពីតម្រូវការជាក់ស្ដែង ជ្រើសរើសដំណោះស្រាយសមស្រប និងផ្ដល់ការគាំទ្រផ្នែកបច្ចេកទេសតាមវិសាលភាពគម្រោង។" data-en="We focus on understanding real requirements, recommending suitable solutions and providing technical support according to each project's scope.">យើងផ្ដោតលើការយល់ពីតម្រូវការជាក់ស្ដែង ជ្រើសរើសដំណោះស្រាយសមស្រប និងផ្ដល់ការគាំទ្រផ្នែកបច្ចេកទេសតាមវិសាលភាពគម្រោង។</p>
+        <ul class="about-list">
+          <li><span>✓</span><span data-km="ដំណោះស្រាយតាមតម្រូវការជាក់ស្ដែង" data-en="Solutions tailored to real requirements">ដំណោះស្រាយតាមតម្រូវការជាក់ស្ដែង</span></li>
+          <li><span>✓</span><span data-km="ការរៀបចំការងារដោយមានផែនការ" data-en="Planned and organized implementation">ការរៀបចំការងារដោយមានផែនការ</span></li>
+          <li><span>✓</span><span data-km="ការគាំទ្រ និងថែទាំបច្ចេកទេស" data-en="Technical support and maintenance">ការគាំទ្រ និងថែទាំបច្ចេកទេស</span></li>
+        </ul>
+        <a href="#contact" class="btn btn-primary"><span data-km="ទាក់ទងមកយើង" data-en="Contact Us">ទាក់ទងមកយើង</span><span>↗</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section process-section" id="process">
+    <div class="container">
+      <div class="section-heading">
+        <span class="eyebrow" data-km="របៀបធ្វើការ" data-en="HOW WE WORK">របៀបធ្វើការ</span>
+        <h2 data-km="ពីគំនិត ដល់ដំណោះស្រាយ" data-en="From idea to implementation">ពីគំនិត ដល់ដំណោះស្រាយ</h2>
+        <p data-km="ដំណើរការងារច្បាស់លាស់ ដើម្បីឱ្យគម្រោងរបស់អ្នកអាចដំណើរការបានល្អ។" data-en="A clear process to help your project move forward smoothly.">ដំណើរការងារច្បាស់លាស់ ដើម្បីឱ្យគម្រោងរបស់អ្នកអាចដំណើរការបានល្អ។</p>
+      </div>
+      <div class="process-grid">
+        <article class="process-step"><span class="step-no">01</span><div class="step-icon">⌕</div><h3 data-km="ស្វែងយល់" data-en="Discover">ស្វែងយល់</h3><p data-km="ស្តាប់តម្រូវការ ពិនិត្យទីតាំង និងបញ្ហាបច្ចុប្បន្ន។" data-en="Discuss your needs, inspect the site and understand current issues.">ស្តាប់តម្រូវការ ពិនិត្យទីតាំង និងបញ្ហាបច្ចុប្បន្ន។</p></article>
+        <article class="process-step"><span class="step-no">02</span><div class="step-icon">⌘</div><h3 data-km="រៀបចំផែនការ" data-en="Plan">រៀបចំផែនការ</h3><p data-km="ជ្រើសរើសឧបករណ៍ ប្លង់បច្ចេកទេស និងដំណោះស្រាយសមស្រប។" data-en="Select suitable equipment, technical designs and solutions.">ជ្រើសរើសឧបករណ៍ ប្លង់បច្ចេកទេស និងដំណោះស្រាយសមស្រប។</p></article>
+        <article class="process-step"><span class="step-no">03</span><div class="step-icon">⚙</div><h3 data-km="ដំឡើង និងតេស្ត" data-en="Install & Test">ដំឡើង និងតេស្ត</h3><p data-km="អនុវត្តការងារ ត្រួតពិនិត្យ និងសាកល្បងមុនប្រគល់ជូន។" data-en="Implement, inspect and test the solution before handover.">អនុវត្តការងារ ត្រួតពិនិត្យ និងសាកល្បងមុនប្រគល់ជូន។</p></article>
+        <article class="process-step"><span class="step-no">04</span><div class="step-icon">↗</div><h3 data-km="គាំទ្របន្ត" data-en="Ongoing Support">គាំទ្របន្ត</h3><p data-km="ផ្ដល់ការណែនាំ ថែទាំ និងជួយដោះស្រាយបញ្ហាបច្ចេកទេស។" data-en="Provide guidance, maintenance and technical troubleshooting.">ផ្ដល់ការណែនាំ ថែទាំ និងជួយដោះស្រាយបញ្ហាបច្ចេកទេស។</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-heading">
+        <span class="eyebrow" data-km="ទំនាក់ទំនង" data-en="GET IN TOUCH">ទំនាក់ទំនង</span>
+        <h2 data-km="តោះពិភាក្សាអំពីគម្រោងរបស់អ្នក" data-en="Let's discuss your project">តោះពិភាក្សាអំពីគម្រោងរបស់អ្នក</h2>
+        <p data-km="ប្រាប់យើងអំពីតម្រូវការរបស់អ្នក។ យើងនឹងជួយស្វែងរកដំណោះស្រាយសមស្រប។" data-en="Tell us what you need. We'll help you explore a suitable solution.">ប្រាប់យើងអំពីតម្រូវការរបស់អ្នក។ យើងនឹងជួយស្វែងរកដំណោះស្រាយសមស្រប។</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <a class="contact-info-card" href="tel:+855884746777">
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 11.2 19a19.4 19.4 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7l.5 3a2 2 0 0 1-.6 1.9L7.1 10.5a16 16 0 0 0 6.4 6.4l1.9-1.9a2 2 0 0 1 1.9-.6l3 .5a2 2 0 0 1 1.7 2Z"/></svg>
+            </span>
+            <span class="contact-detail"><strong data-km="ទូរស័ព្ទ" data-en="Phone">ទូរស័ព្ទ</strong><span>+855 88 4746 777</span></span>
+            <span class="contact-arrow">↗</span>
+          </a>
+
+          <a class="contact-info-card" href="https://t.me/bravith_phuong" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+            </span>
+            <span class="contact-detail"><strong>Telegram</strong><span>@bravith_phuong</span></span>
+            <span class="contact-arrow">↗</span>
+          </a>
+
+          <a class="contact-info-card" href="mailto:bravithphuong@gmail.com">
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
+            </span>
+            <span class="contact-detail"><strong data-km="អ៊ីមែល" data-en="Email">អ៊ីមែល</strong><span>bravithphuong@gmail.com</span></span>
+            <span class="contact-arrow">↗</span>
+          </a>
+
+          <div class="contact-note"><span>✦</span><p data-km="ត្រូវការជំនួយបច្ចេកទេស ឬចង់សាកសួរតម្លៃ? អ្នកអាចទាក់ទងមកយើងបាន។" data-en="Need technical assistance or a quotation? Feel free to contact us.">ត្រូវការជំនួយបច្ចេកទេស ឬចង់សាកសួរតម្លៃ? អ្នកអាចទាក់ទងមកយើងបាន។</p></div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-heading"><h3 data-km="ផ្ញើសារមកយើង" data-en="Send us a message">ផ្ញើសារមកយើង</h3><p data-km="បំពេញព័ត៌មានខាងក្រោម" data-en="Fill in the details below">បំពេញព័ត៌មានខាងក្រោម</p></div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="visitorName" data-km="ឈ្មោះរបស់អ្នក *" data-en="Your name *">ឈ្មោះរបស់អ្នក *</label>
+              <input id="visitorName" type="text" autocomplete="name" required placeholder="បញ្ចូលឈ្មោះ" data-placeholder-km="បញ្ចូលឈ្មោះ" data-placeholder-en="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="visitorEmail" data-km="អ៊ីមែលរបស់អ្នក *" data-en="Your email *">អ៊ីមែលរបស់អ្នក *</label>
+              <input id="visitorEmail" type="email" autocomplete="email" required placeholder="name@example.com">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="visitorService" data-km="សេវាកម្មដែលអ្នកត្រូវការ *" data-en="Service you need *">សេវាកម្មដែលអ្នកត្រូវការ *</label>
+            <select id="visitorService" required>
+              <option value="" data-km="ជ្រើសរើសសេវាកម្ម" data-en="Select a service">ជ្រើសរើសសេវាកម្ម</option>
+              <option>IT Consultant</option>
+              <option>Network Infrastructure</option>
+              <option>Server &amp; Storage</option>
+              <option>Network &amp; Cybersecurity</option>
+              <option>CCTV Surveillance System</option>
+              <option>Access Control System</option>
+              <option>Public Address (PA) / Audio System</option>
+              <option>Fire Alarm System</option>
+              <option>Network Cabling</option>
+              <option>Managed IT Services</option>
+              <option>Copier Rental</option>
+              <option>ICT Peripheral</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="visitorMessage" data-km="ព័ត៌មានលម្អិត *" data-en="Project details *">ព័ត៌មានលម្អិត *</label>
+            <textarea id="visitorMessage" rows="5" required placeholder="សូមពិពណ៌នាអំពីតម្រូវការរបស់អ្នក..." data-placeholder-km="សូមពិពណ៌នាអំពីតម្រូវការរបស់អ្នក..." data-placeholder-en="Tell us a little about your project..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary submit-btn"><span data-km="បន្តទៅ Email" data-en="Continue to Email">បន្តទៅ Email</span><span>↗</span></button>
+          <p class="form-status" id="formStatus" aria-live="polite" data-km="ចុចប៊ូតុង ដើម្បីបើកកម្មវិធីអ៊ីមែលរបស់អ្នក។" data-en="Click the button to open your email app.">ចុចប៊ូតុង ដើម្បីបើកកម្មវិធីអ៊ីមែលរបស់អ្នក។</p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <a class="brand footer-brand" href="#home">
+      <span class="brand-mark"><i></i><i></i><i></i><i></i></span>
+      <span class="brand-copy"><strong>NEXORA</strong><small>TECHNOLOGIES</small></span>
+    </a>
+    <p data-km="ដំណោះស្រាយបច្ចេកវិទ្យា សម្រាប់ការងារដែលប្រសើរជាងមុន។" data-en="Technology solutions for a smarter workplace.">ដំណោះស្រាយបច្ចេកវិទ្យា សម្រាប់ការងារដែលប្រសើរជាងមុន។</p>
+    <span class="copyright">© <span id="year"></span> NEXORA TECHNOLOGIES</span>
+  </div>
+</footer>
+</body>
+</html>
